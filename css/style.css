@@ -1,0 +1,165 @@
+
+.cap_top{
+  border: 9px chartreuse;
+  background-color: cornflowerblue;
+}
+
+
+.main_broder{
+border: 5px outset lawngreen;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-color: lightblue;
+}
+
+
+.h1_tag{
+  border: 3px outset red;
+  background-color: green;
+  text-align: center;
+}
+
+.div_tag {
+  border: px outset red;
+  background-color: lightblue;    
+  text-align: center;
+  font-size: 90px;
+}
+
+
+.back_color_green{
+   width: 200px;
+   height: 120px;
+   background-color: green;
+   border: 2px solid black;
+   position: relative;
+}
+
+.green{
+     width: 400px;
+     height: 240px;
+     background-color: green;
+     border: 2px solid black;
+     position: relative;
+}
+
+.red_colcor{
+     background-color: red;
+     width: 120px;
+     height: 120px;
+     position: absolute;
+     left: 140px;
+     top: 60px;
+     border-radius: 60px;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+
+.text_dec{
+  text-decoration: overline;
+  }
+  .text_trans_low {
+    text-transform: lowercase;
+  }
+  .text_trans{
+    text-transform: uppercase;
+    text-indent: 100px;
+  }
+
+  .letter_spac{
+    letter-spacing: 10px;
+    line-height: 1.8px;
+  }
+  .text_sha{
+    text-shadow: 7px 5px green;
+    font-size: 40px;
+  }
+  .img_top {
+    vertical-align: top;
+  }
+
+  .item1 {
+    grid-area: header;
+  }
+
+  .item2 {
+    grid-area: menu;
+  }
+
+  .item3 {
+    grid-area: main;
+  }
+
+  .item4 {
+    grid-area: right;
+  }
+
+  .item5 {
+    grid-area: footer;
+  }
+
+  .grid_c {
+    display: grid;
+    grid-template-areas: 'header header header header header header '
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+      grid-gap: 10px;
+        background-color: indigo;
+         padding: 10px;
+
+  }
+
+  .grid_c>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .box{
+    background-color:burlywood;
+    width: 400px;
+    border: 15px solid red;
+    padding: 20px;
+    margin: 40px;
+    outline:green solid 10px;
+    text-align: justify;
+    text-indent: 100px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+   
+   }
+
+.b:hover {
+  color: green;
+}
+
+.colo_ul{
+  list-style-image: url("https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/sqcyan.gif");  
+}
+
+.text_cverflow{
+  background: cornflowerblue;
+  color: blue;
+  padding: 15px;
+  width: 500px;
+  height: 100px;
+  overflow: scroll;
+  border: 3px solid green; 
+}
+
+.img_fl{
+  float: left;
+}
+
+.li_menu {
+  display: inline;
+}
+
+ 
